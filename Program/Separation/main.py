@@ -70,6 +70,5 @@ def separate(data_file='../../output/raw_data/data_raw.fits', temp_file='None',
     fin_folder = str(destiny)+'output_data/'
     weight_data(data, w, template, fin_folder)
 
-# prepare_files('../../observations/' ,'../../output/raw_data/')
-separate('../../output/raw_data/data_raw.fits' , '../../templatev2.fits', destiny = '../../output/simulation_4/')
-# separate('../../output/raw_data/data_raw.fits' , destiny = '../../output/simulation_2/')   
+
+ 
