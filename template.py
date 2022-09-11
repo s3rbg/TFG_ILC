@@ -75,4 +75,3 @@ def make_template(lat, nside=1024, ipix=12*1024**2, nest = False):
         
     h1 = fits.HDUList([fits.PrimaryHDU(temp)])
     h1.writeto('templatev8.fits')
-make_template([25])
